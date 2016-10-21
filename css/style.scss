@@ -1,0 +1,22 @@
+$primary-color: #f5cfd0;
+
+body {
+  background-color: $primary-color;
+  padding-top: 50px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar .navbar-header{
+    display: inline-block;
+    float: none;
+}
+.navbar-brand {
+    float:none;
+}
