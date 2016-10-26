@@ -2,8 +2,21 @@ $primary-color: #f5cfd0;
 $second-color: #FF4790;
 body {
   background-color: $primary-color;
-  padding-top: 90px;
+  padding-top: 110px;
+  font-family: 'Space Mono', monospace;
 }
+header{
+    text-align: left;
+}
+
+.outline{
+    border: 2px solid;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
 .navbar{
     background-color: $primary-color;
     border-bottom:2px solid;
@@ -69,14 +82,11 @@ body {
 }
 
 footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  color: $second-color;
-  font-size: 16px;
-  font-family: 'Concert One', cursive;
+    padding-top: 60px;
+    text-align: center;
+    color: $second-color;
+    font-size: 16px;
+    font-family: 'Concert One', cursive;
 }
 
 ::selection {
