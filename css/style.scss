@@ -1,24 +1,87 @@
 $primary-color: #f5cfd0;
-
+$second-color: #FF4790;
 body {
   background-color: $primary-color;
   padding-top: 90px;
 }
+.navbar{
+    background-color: $primary-color;
+    border-bottom:2px solid;
+    border-top:2px solid;
 
+}
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
+    font-size: 20px;
+    color: $second-color;
+    font-family: 'Concert One', cursive;
+
 }
 .navbar .navbar-collapse {
     text-align: center;
+    border-top:none;
+    box-shadow:none;
 }
-
 .navbar .navbar-header{
     float: left;
-    padding: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     text-align: center;
     width: 100%;
 }
-.navbar-brand {
+.navbar-default .navbar-brand {
+    font-family: 'Concert One', cursive;
+    font-size: 48px;
     float:none;
+    color: $second-color;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: $second-color;
+}
+.navbar-default .navbar-toggle {
+    border: 2px solid;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.nav.navbar-nav{
+    margin: 0px -15px;
+    li a {
+        padding-top: 4px;
+        padding-bottom: 12px;
+        color: $second-color;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        .navbar-header{
+            text-align: left;
+        }
+        .navbar-collapse {
+            border-top: 2px solid;
+        }
+    }
+    .navbar-default .navbar-brand {
+        font-size: 36px;
+    }
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: $second-color;
+  font-size: 16px;
+  font-family: 'Concert One', cursive;
+}
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
 }
