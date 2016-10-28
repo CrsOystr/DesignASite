@@ -15,6 +15,15 @@ header {
   padding-left: 20px;
   padding-right: 20px; }
 
+li {
+  -webkit-transition: all 0.9s ease;
+  transition: all 0.9 ease;
+  padding-bottom: 20px; }
+
+.large-scroll {
+  font-size: 20px;
+  padding-bottom: 0px; }
+
 .navbar {
   background-color: #f5cfd0;
   border-bottom: 2px solid;
@@ -22,7 +31,7 @@ header {
   .navbar .navbar-nav {
     display: inline-block;
     float: none;
-    font-size: 20px;
+    font-size: 30px;
     color: #FF4790;
     font-family: 'Concert One', cursive; }
   .navbar .navbar-collapse {
