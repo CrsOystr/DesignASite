@@ -15,15 +15,6 @@ header {
   padding-left: 20px;
   padding-right: 20px; }
 
-li {
-  -webkit-transition: all 0.9s ease;
-  transition: all 0.9 ease;
-  padding-bottom: 20px; }
-
-.large-scroll {
-  font-size: 20px;
-  padding-bottom: 0px; }
-
 .navbar {
   background-color: #f5cfd0;
   border-bottom: 2px solid;
@@ -33,7 +24,7 @@ li {
     float: none;
     font-size: 30px;
     color: #FF4790;
-    font-family: 'Concert One', cursive; }
+    font-family: 'Concert One'; }
   .navbar .navbar-collapse {
     text-align: center;
     border-top: none;
@@ -60,7 +51,10 @@ li {
     background-color: #FF4790; }
 
 .nav.navbar-nav {
-  margin: 0px -15px; }
+  margin: 0px -15px;
+  -webkit-transition: all 0.9s ease;
+  transition: all 0.9 ease;
+  padding-bottom: 20px; }
   .nav.navbar-nav li a {
     padding-top: 4px;
     padding-bottom: 12px;
@@ -86,7 +80,23 @@ footer {
   /* WebKit/Blink Browsers */ }
 
 ::-moz-selection {
-  background: #ffb7b7;
-  /* Gecko Browsers */ }
+  background: #ffb7b7; }
+
+/* expiriment
+*
+*
+*
+*
+*/
+.lol {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  animation: dash 3s linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000; } }
 
 /*# sourceMappingURL=style.css.map */

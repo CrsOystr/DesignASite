@@ -11,22 +11,13 @@ section {
 header{
     text-align: left;
 }
-
 .outline{
     border: 2px solid;
     margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
 }
-li{
-    -webkit-transition: all 0.9s ease;
-    transition: all 0.9 ease;
-    padding-bottom: 20px;
-}
-.large-scroll {
-    font-size: 20px;
-    padding-bottom: 0px;
-}
+
 .navbar{
     background-color: $primary-color;
     border-bottom:2px solid;
@@ -36,7 +27,7 @@ li{
         float: none;
         font-size: 30px;
         color: $second-color;
-        font-family: 'Concert One', cursive;
+        font-family: 'Concert One';
 
     }
     .navbar-collapse {
@@ -70,6 +61,9 @@ li{
 }
 .nav.navbar-nav{
     margin: 0px -15px;
+    -webkit-transition: all 0.9s ease;
+    transition: all 0.9 ease;
+    padding-bottom: 20px;
     li a {
         padding-top: 4px;
         padding-bottom: 12px;
@@ -103,5 +97,25 @@ footer {
   background: #ffb7b7; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #ffb7b7; /* Gecko Browsers */
+  background: #ffb7b7;
+}
+
+/* expiriment
+*
+*
+*
+*
+*/
+.lol {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    animation: dash 3s linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset:1000;
+  }
 }
