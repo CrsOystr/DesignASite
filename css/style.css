@@ -24,7 +24,7 @@ header {
     float: none;
     font-size: 30px;
     color: #FF4790;
-    font-family: 'Concert One'; }
+    font-family: 'Concert One', monospace; }
   .navbar .navbar-collapse {
     text-align: center;
     border-top: none;
@@ -38,7 +38,7 @@ header {
     width: 100%; }
 
 .navbar-default .navbar-brand {
-  font-family: 'Concert One', cursive;
+  font-family: 'Concert One', monospace;
   font-size: 48px;
   float: none;
   color: #FF4790; }
@@ -73,7 +73,7 @@ footer {
   text-align: center;
   color: #FF4790;
   font-size: 16px;
-  font-family: 'Concert One', cursive; }
+  font-family: 'Concert One', monospace; }
 
 ::selection {
   background: #ffb7b7;

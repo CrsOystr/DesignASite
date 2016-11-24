@@ -27,7 +27,7 @@ header{
         float: none;
         font-size: 30px;
         color: $second-color;
-        font-family: 'Concert One';
+        font-family: 'Concert One', monospace;
 
     }
     .navbar-collapse {
@@ -46,7 +46,7 @@ header{
 }
 
 .navbar-default .navbar-brand {
-    font-family: 'Concert One', cursive;
+    font-family: 'Concert One', monospace;
     font-size: 48px;
     float:none;
     color: $second-color;
@@ -90,7 +90,7 @@ footer {
     text-align: center;
     color: $second-color;
     font-size: 16px;
-    font-family: 'Concert One', cursive;
+    font-family: 'Concert One', monospace;
 }
 
 ::selection {
