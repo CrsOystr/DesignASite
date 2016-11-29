@@ -115,7 +115,7 @@
 		 fill="freeze" />
 		 <animate
 		 attributeName="stroke-dashoffset"
-		 from="550"
+		 from="500"
 		 to="0"
 		 dur="8s"
 		 begin="3s"
@@ -128,7 +128,7 @@
 		c-6,2.2-12.6,3.1-19.4,3.7C169,211.6,164.7,211.6,160.5,211.6z">
 		 <animate
 		 attributeName="stroke-dashoffset"
-		 from="550"
+		 from="500"
 		 to="0"
 		 dur="1s"
 		 begin="5s"
@@ -146,7 +146,7 @@
 		 fill="freeze" />
 		 <animate
 		 attributeName="stroke-dashoffset"
-		 from="550"
+		 from="500"
 		 to="0"
 		 dur="8s"
 		 begin="3s"
